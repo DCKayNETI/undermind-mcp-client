@@ -1,0 +1,20 @@
+{
+  "client_id": "https://dckayneti.github.io/undermind-mcp-client/undermind/oauth-client-metadata.json",
+  "client_name": "OER Research OS (local POC)",
+  "client_uri": "https://github.com/DCKayNETI/undermind-mcp-client",
+  "redirect_uris": [
+    "http://127.0.0.1:8765/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "mcp",
+  "application_type": "native",
+  "software_id": "oer-research-os-undermind-mcp-poc",
+  "software_version": "0.1.0"
+}
